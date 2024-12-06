@@ -9,6 +9,7 @@ const clientController = require("../controllers/clientController");
 const leadController = require("../controllers/leadController");
 const productController = require("../controllers/productController");
 
+
 //_______________________________ Admin management_______________________________
 
 router.route("/admin/create").post(catchErrors(adminController.create));
